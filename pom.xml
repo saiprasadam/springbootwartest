@@ -28,6 +28,7 @@
 				<exclusion>
                                  <groupId>org.apache.tomcat.embed</groupId>
                                  <artifactId>tomcat-embed-websocket</artifactId>
+				<scope>provided</scope>	
                              </exclusion>
 			</exclusions>
 		</dependency>
